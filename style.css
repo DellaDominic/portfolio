@@ -1,0 +1,93 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* Nav bar styles */
+.navbar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  background: #000;
+  color: #fff;
+  width: 90%;
+  max-width: 1100px;
+  padding: 14px 24px;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-container nav a {
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+/* Hero styles */
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.subtitle {
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+h1 span {
+  color: #aaa;
+  display: block;
+  font-weight: 400;
+}
+
+.skills {
+  margin: 20px 0;
+}
+
+.skills span {
+  background: #eaeaea;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin: 5px;
+  display: inline-block;
+}
+
+/* View my work Button styles */
+.cta-view-my-work {
+  margin: 20px 0;
+  border: 1px solid #000;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
