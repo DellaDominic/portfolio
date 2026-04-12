@@ -1,4 +1,4 @@
-/* CSS reset */
+/* CSS RESET */
 * {
   margin: 0;
   padding: 0;
@@ -10,12 +10,72 @@ body {
   background: #f5f5f5;
 }
 
-/* Nav bar styles */
-.navbar {
+/* BACKGROUND STYLES */
+.page-bg {
+  /* background sticks to the viewport and doesn't scroll with the content  */
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  /* clips the background to the viewport, preventing any overflow from being visible */
+  overflow: hidden;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  /* filter: blur(60px); */
+  /* opacity: 0.7; */
+}
+
+.blob-right-red {
+  width: 400px;
+  height: 400px;
+  background: #ff6b6b;
+
+  top: -100px;
+  right: -100px;
+}
+.blob-bottom-left-blue {
+  width: 350px;
+  height: 350px;
+  background: #5b7cfa;
+
+  bottom: -50px;
+  left: -120px;
+
+  /* filter: blur(50px); */
+  /* transform: scale(1.2); */
+}
+
+.blob-left-purple {
+  width: 300px;
+  height: 300px;
+  background: #e2cde4;
+
+  top: -80px;
+  left: -80px;
+}
+
+/* .blob-soft {
+  width: 500px;
+  height: 500px;
+  background: red;
+
+  top: 20%;
+  left: 40%;
+
+  filter: blur(100px);
+  opacity: 0.3;
+} */
+
+/* HEADER */
+.header {
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
+
+/* NAVBAR */
 
 .nav-container {
   background: #000;
@@ -40,7 +100,7 @@ body {
   font-size: 14px;
 }
 
-/* Hero styles */
+/* HERO */
 
 .hero {
   height: 90vh;
